@@ -1,0 +1,104 @@
+.deviceItem{
+    box-shadow: 0 0 5px 2px lightgray;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 10px 10px;
+    width: 100%;
+    border-radius: 0.375rem;
+    background-color: white;
+}
+
+.img{
+    width: 20%;
+    padding: 5px 5px 5px;
+}
+
+.info{
+    width: 50%;
+    padding: 10px 20px 10px;
+    display: block;
+    cursor: pointer;
+}
+.name{
+    text-align: start;
+}
+
+.description{
+    text-align: start;
+    margin-top: 20px;
+}
+
+.bars{
+    width: 25%;
+    display: block;
+}
+
+.price{
+    font-size: 30px;
+    text-align: end;
+    padding: 10px 10px 10px;
+    color: purple;
+}
+
+.oldPrice{
+    margin-bottom: -5px;
+    font-size: 15px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.credit{
+    font-size: 16px;
+    color: black;
+}
+
+.buttons{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.notLiked{
+    width: 50px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 0.375rem;
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.liked{
+    width: 50px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 0.375rem;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.likeIconOff{
+    padding: 5px 5px 5px;
+    width: 40px;
+    height: auto;
+}
+
+.likeIconOn{
+    padding: 5px 5px 5px;
+    width: 40px;
+    height: auto;
+}
+
+.miniBasket{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 0.375rem;
+    color: black;
+}
+
+.miniBasket:hover{
+    border: 1px solid purple;
+    color: purple;
+}
