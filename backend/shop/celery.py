@@ -35,6 +35,6 @@ def update_quo():
         return default_rub_rate
 
     try:
-        return response.json()["rates"]["RUB"]
+        return int(response.json()["rates"]["RUB"])
     except KeyError:
         return default_rub_rate
